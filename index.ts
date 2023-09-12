@@ -20,7 +20,7 @@ note.badge = 3;
 note.sound = 'ping.aiff';
 note.alert = 'TEST MESSAGE';
 note.payload = { messageFrom: 'Chad Michel' };
-note.topic = 'com.cattlemen.mrs';
+note.topic = 'YOUR+APP+ID';
 
 apnProvider.send(note, deviceToken).then((result) => {
   console.log(result);
